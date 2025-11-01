@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Animation AOS douce === */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+/* === Swiper Styles supplémentaires === */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+}
+
+.swiper-pagination-bullet {
+  background: black;
+}
+
+/* === Animation des images produits === */
+.group:hover img:first-child {
+  opacity: 0;
+}
+.group:hover img:last-child {
+  opacity: 1;
+}
+
+/* === Réinitialisation globale === */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

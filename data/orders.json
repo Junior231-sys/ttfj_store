@@ -1,0 +1,21 @@
+[
+  {
+    "id": "order_1762010508127",
+    "name": "junior_tchoumba",
+    "email": "juniortchoumbatiboncho@yahoo.com",
+    "phone": "656638441",
+    "address": "Douala",
+    "products": [
+      {
+        "name": "hat",
+        "price": 20
+      },
+      {
+        "name": "Adidas shoes",
+        "price": 49
+      }
+    ],
+    "total": 69,
+    "date": "2025-11-01T15:21:48.127Z"
+  }
+]
